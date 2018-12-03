@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: battcn-cloud-ribbon
+    name: ribbon
   cloud:
     consul:
       host: localhost
