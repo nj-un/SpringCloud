@@ -7,7 +7,12 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+//@EnableDiscoveryClient
 //@SpringBootApplication
+//@EnableCircuitBreaker
+/**
+ * SpringCloudApplication 一个注解顶上面三个
+ */
 @SpringCloudApplication
 public class GxConsumerApplication {
 
